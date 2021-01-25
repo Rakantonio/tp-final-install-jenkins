@@ -1,7 +1,0 @@
----
-- name: Configure Instance
-  hosts: web
-  gather_facts: true
-  become: true
-  roles:
-    - web
